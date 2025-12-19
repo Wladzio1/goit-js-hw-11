@@ -5,10 +5,10 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/vanilla-app-template/index.js"></script>
-    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-B4VFN8au.js">
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/vendor-CXh9fJFm.css">
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/index-B0ywBrVI.css">
+    <script type="module" crossorigin src="/goit-js-hw-11/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-dohI4QbB.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/vendor-BtU418Vu.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/index-yECn7U0A.css">
   </head>
   <body>
     <main>
@@ -24,6 +24,19 @@
           </label>
           <button type="submit">Search</button>
         </form>
+        <span
+          id="gallery-loader"
+          class="loader"
+          hidden
+          role="status"
+          aria-live="polite"
+        >
+          <span class="loader-inner ball-pulse">
+            <div></div>
+            <div></div>
+            <div></div>
+          </span>
+        </span>
 
         <ul class="gallery"></ul>
       </div>
